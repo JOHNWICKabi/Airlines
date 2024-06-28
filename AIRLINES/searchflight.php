@@ -23,6 +23,8 @@
         .container {
             text-align: center;
             display: flex;
+            padding-left: 10px;
+            padding-right: 10px;
             flex-wrap: wrap; /* Allow cards to wrap to the next line */
             justify-content: center;
             max-height: 100vh; /* Set a maximum height for the container */
@@ -30,6 +32,10 @@
         }
 
         .card {
+            paddind-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
             border: 1px solid #ddd;
             border-radius: 8px;
             overflow: hidden;
